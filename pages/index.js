@@ -28,6 +28,15 @@ function HomePage() {
           height={1280 / 2}
         />
       </div>
+
+      <div className="container max-w-4xl m-auto px-4 mt-20">
+        <Image
+          src="/yagsizlogo.png"
+          alt="yagsiz logomuz"
+          width={2300 / 2}
+          height={1280 / 2}
+        />
+      </div>
     </>
   )
 }

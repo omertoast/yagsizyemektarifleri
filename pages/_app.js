@@ -13,6 +13,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Yağsız Yemek Tarifleri</title>
+        <link rel="shortcut icon" href="/yagsizlogo.png" />
       </Head>
 
       <Header />
