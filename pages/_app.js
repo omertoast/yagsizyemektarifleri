@@ -14,7 +14,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Yağsız Yemek Tarifleri</title>
         <link rel="shortcut icon" href="/yagsizlogo.png" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZFV615XQN8"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
