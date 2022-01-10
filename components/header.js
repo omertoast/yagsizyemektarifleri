@@ -7,10 +7,10 @@ function Header() {
       <Container>
         <nav className="flex space-x-4">
           <Link href="/">
-            <a>About</a>
+            <a>Anasayfa</a>
           </Link>
-          <Link href="/posts">
-            <a>Posts</a>
+          <Link href="/tarifler">
+            <a>Tarifler</a>
           </Link>
         </nav>
       </Container>

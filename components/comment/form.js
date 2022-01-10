@@ -10,8 +10,8 @@ function CommentForm({ text, setText, onSubmit }) {
         rows="2"
         placeholder={
           isAuthenticated
-            ? `What are your thoughts?`
-            : 'Please login to leave a comment'
+            ? `Bu tarif hakkında ne düşünüyorsun?`
+            : 'Yorum yapmak için giriş yapman lazım essek.'
         }
         onChange={(e) => setText(e.target.value)}
         value={text}
@@ -22,10 +22,10 @@ function CommentForm({ text, setText, onSubmit }) {
         {isAuthenticated ? (
           <div className="flex items-center space-x-6">
             <button className="py-2 px-4 rounded bg-blue-600 text-white disabled:opacity-40 hover:bg-blue-700">
-              Send
+              Gönder
             </button>
             <button className="text-gray-500" onClick={() => logout()}>
-              Log out
+              Çıkış yap
             </button>
           </div>
         ) : (
@@ -34,7 +34,7 @@ function CommentForm({ text, setText, onSubmit }) {
             className="py-2 px-4 rounded bg-blue-600 text-white disabled:opacity-40 hover:bg-blue-700"
             onClick={() => loginWithPopup()}
           >
-            Log In
+            Giriş yap
           </button>
         )}
       </div>
